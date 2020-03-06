@@ -17,6 +17,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compile group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.31'
+	compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
 }
 
 test {
