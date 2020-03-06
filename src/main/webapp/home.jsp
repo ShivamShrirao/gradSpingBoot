@@ -13,6 +13,9 @@ Hello World!
 	<input type="submit">
 </form>
 <br>
-Hello ${obj.aid}, ${obj.aname}, ${obj.tech}.
+<form action="getAlien">
+	aid <input type="text" name="aid"><br>
+	<input type="submit">
+</form>
 </body>
 </html>
