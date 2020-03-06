@@ -1,10 +1,10 @@
-package com.example.gradSpringBoot;
+package com.example.gradSpingBoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GradSpringBootApplicationTests {
+class GradSpingBootApplicationTests {
 
 	@Test
 	void contextLoads() {
