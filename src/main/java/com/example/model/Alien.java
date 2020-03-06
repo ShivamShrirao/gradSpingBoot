@@ -1,8 +1,11 @@
-package com.example.gradSpingBoot;
+package com.example.model;
 
-@Entity
-public class Alien {
-    @Id
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+//@Entity
+public class Alien  {
+//    @Id
     private int aid;
     private String aname;
     private String tech;
