@@ -7,11 +7,12 @@
 <body>
 Hello World!
 <form>
-	<input type="text" name="t1"><br>
-	<input type="text" name="t2">
+	aid <input type="text" name="aid" placeholder="${obj.aid}"><br>
+	aname <input type="text" name="aname" placeholder="${obj.aname}"><br>
+	tech <input type="text" name="tech" placeholder="${obj.tech}">
 	<input type="submit">
 </form>
 <br>
-Sum is ${k}.
+Hello ${obj.aid}, ${obj.aname}, ${obj.tech}.
 </body>
 </html>

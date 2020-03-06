@@ -9,8 +9,6 @@ public class GradSpingBootApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx=SpringApplication.run(GradSpingBootApplication.class, args);
-		Alien a = ctx.getBean(Alien.class);
-		a.show();
 	}
 
 }
