@@ -38,7 +38,8 @@ public class Alien {
     public String toString() {
         return "Alien{" +
                 "aid=" + aid +
-                ", name='" + aname + '\'' +
+                ", aname='" + aname + '\'' +
+                ", tech='" + tech + '\'' +
                 '}';
     }
 }
