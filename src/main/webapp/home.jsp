@@ -10,6 +10,7 @@ Hello World!
 <form action="addAlien">
 	aid <input type="text" name="aid"><br>
 	aname <input type="text" name="aname"><br>
+	tech <input type="text" name="tech"><br>
 	<input type="submit">
 </form>
 <br>
