@@ -21,6 +21,7 @@ dependencies {
 	}
 	compile group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.31'
 	compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
+	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.10.2'
 }
 
 test {
