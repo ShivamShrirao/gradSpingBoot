@@ -6,5 +6,12 @@
 </head>
 <body>
 Hello World!
+<form>
+	<input type="text" name="t1"><br>
+	<input type="text" name="t2">
+	<input type="submit">
+</form>
+<br>
+Sum is ${k}.
 </body>
 </html>
